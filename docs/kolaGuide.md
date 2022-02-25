@@ -33,7 +33,7 @@ Kola is a framework for testing software integration in CoreOS systems across mu
 3. `kola run -p <platform>` Is the most generic way of testing extended artifacts, this is mostly useful for the cloud platforms
 4. For running the likes of metal/metal4k artifacts there's not much difference than running `kola run` from the coreos-assembler
 5. In the case of the `testiso` command, you'll see that there is the `--qemu-native-4k` option passed to `kola testiso`.  This instructs the `testiso` test to attempt to install FCOS/RHCOS to a disk that uses 4k sector size.  If you don't include that option, the `testiso` command will attempt to install FCOS/RHCOS to a non 4k disk (512b sector size)
-6. `cosa kola testiso -P --qemu-native-4k` (This is an example of me testing the live ISO build, this tests all of the scenarios for fedora 35) 
+`cosa kola testiso --qemu-native-4k` (This is an example of me testing the live ISO build for a 4k sectors disk, this tests all of the scenarios)
 
 Example output:
 
