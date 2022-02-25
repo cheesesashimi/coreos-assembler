@@ -6,7 +6,7 @@ This document goes through the basics of how kola tests work and how someone jus
 Kola is a framework for testing software integration in CoreOS systems across multiple platforms. It is primarily designed to operate within the CoreOS Assembler for testing software that has landed in the OS image.
 
  
-> [Steps to run Kola](https://github.com/coreos/coreos-assembler/tree/main/docs/kola)
+> [Additional documentation about Kola](https://github.com/coreos/coreos-assembler/tree/main/docs/kola)
  
  
  ### Steps to run a test from start to finish
